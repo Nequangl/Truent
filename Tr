@@ -1,0 +1,15 @@
+let strVal1 = "123.5"
+let strVal2 = "One"
+let val1a = +strVal1
+let val1b = Number(strVal1)
+let val1c = parseFloat(strVal1)
+let val1d = parseInt(strVal1)
+let val1e = +strVal1 - parseInt(strVal1)
+let val2a = +strVal2
+
+console.log("val1a->", val1a) // 123.5
+console.log("val1b->", val1b) // 123.5
+console.log("val1c->", val1c) // 123.5
+console.log("val1d->", val1d) // 123
+console.log("val1e->", val1e) // 0.5
+console.log("val2a->", val2a) // NaN
